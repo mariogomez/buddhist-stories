@@ -1,0 +1,7 @@
+/.bundle
+/bin
+.vagrant
+.DS_Store
+.idea
+Gemfile.local.rb
+localtunnel
