@@ -17,7 +17,7 @@ mysql -u root < /vagrant/provision/update_root.sql
 su  - vagrant << EOF
     export env LC_CTYPE="en_US.UTF-8"
     gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
-    \curl -sSL https://get.rvm.io | bash -s stable --ruby=2.4.1
+    \curl -sSL https://get.rvm.io | grep -v __rvm_print_headline | bash -s stable --ruby=2.4.1
     source /home/vagrant/.rvm/scripts/rvm
     rvm use 2.4.1
 
