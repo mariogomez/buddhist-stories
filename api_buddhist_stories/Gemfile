@@ -14,6 +14,9 @@ gem 'rake', '12.0.0'
 # https://github.com/intridea/grape
 gem 'grape', '0.19.1'
 
+# https://github.com/LTe/grape-rabl
+gem 'grape-rabl', '0.4.2'
+
 # Testing framework
 # http://rubydoc.info/gems/rspec-rails/2.14.2
 gem 'rspec-rails', '~> 3.0'
@@ -21,6 +24,10 @@ gem 'rspec-rails', '~> 3.0'
 # Fixtures replacement/enhancements
 # http://rubydoc.info/gems/factory_girl_rails/4.4.0
 gem 'factory_girl_rails', '4.5.0'
+
+# Use mysql as the database for Active Record
+# http://rubydoc.info/gems/mysql2/0.3.13
+gem 'mysql2', '0.4.2'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
