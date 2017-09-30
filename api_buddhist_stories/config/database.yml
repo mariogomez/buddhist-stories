@@ -10,7 +10,7 @@ default: &default
   database: buddhist_database
   username: root
   password: root
-  host: localhost
+  host: 10.0.2.2
   pool: 10
   timeout: 5000
 

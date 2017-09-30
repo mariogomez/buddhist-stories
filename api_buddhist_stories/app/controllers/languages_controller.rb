@@ -1,5 +1,6 @@
 class LanguagesController < ApplicationController
   before_action :set_language, only: [:show, :update, :destroy]
+  before_action :require_login
 
   # GET /languages
   def index
